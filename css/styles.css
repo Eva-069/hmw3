@@ -1,0 +1,166 @@
+ :root {
+     --navy-blue: #2E2F42;
+ }
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    color: #434455;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-style: normal;
+}
+
+h1{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #d9d9d9;
+}
+
+h2{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: var(--navy-blue);
+}
+
+h3{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+}
+
+.span-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.header-list{
+   
+} 
+
+ .header-list-text a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ }
+
+ .header-list-text a:hover,
+ .header-list-text a:focus{
+    color: #404BBF;
+ }
+
+.address a{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: inherit;
+}
+
+.address a:hover,
+.address a:focus{
+    color: #404BBF;
+}
+
+.main{
+    background: var(--navy-blue);
+}
+
+.main-button{
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.main-button:hover,
+.main-button:focus{
+    background-color: #404BBF;
+}
+
+.text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.team{
+    background-color: #F4F4FD;
+}
+
+.team-list{
+    border-radius: 0 0 4px 4px;
+padding: 0px 0px 32px;
+width: 264px;
+height: 380px;
+background-color: #fff;
+}
+
+.team-list h3{
+    text-align: center;
+}
+
+.team-list p{
+    text-align: center;
+}
+
+.footer{
+    background: var(--navy-blue);
+}
+
+.logo-footer{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #F4F4FD
+}
+
+.footer-text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
